@@ -1,0 +1,111 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    text-align: center;
+    height: 100%;
+}
+
+.main {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+    background-color: grey;
+    text-align: center;
+}
+
+.header {
+    display: block;
+}
+
+.top {
+    display: block;
+    height: 140px;
+    background-color: blue;
+}
+
+.menu {
+    display: block;
+    height: 40px;
+    background-color: black;
+}
+
+.main {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
+.content {
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.lorem {
+    font-size: 14px;
+    padding: 0 60px;
+    text-align: justify;
+}
+
+.banner {
+    position: absolute;
+    display: none;
+    width: 60%;
+    height: 70%;
+    background-color: white;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.banner .inner {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .inner .close {
+    position: absolute;
+    border: 1px solid grey;
+    color: grey;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+    padding-top: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.banner .inner .name {
+    color: black;
+    font-size: 40px;
+    padding-top: 120px;
+    margin-bottom:30px;
+}
+
+.banner .inner .price {
+    color: red;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    border: 3px solid red;
+    margin: 20px 20px 0 0;
+    padding:10px 20px;
+    top:30%;
+    right:15%;
+    -ms-transform: rotate(-30deg); /* IE 9 */
+    transform: rotate(-30deg);
+}
